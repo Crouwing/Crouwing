@@ -1,18 +1,9 @@
 "use strict";
 
-// alert("Hellow");
+const category = 'toys';
+console.log(`https://somuerl.com/${category}`);
 
-// let result = confirm("Are you here?");
-// console.log(result);
+const user = 'Ivan';
 
-// const answer = +prompt("Вам есть 18?", "18+");
-// console.log(answer + 5);
+alert(`Привет, ${user}`);
 
-const answers = [];
-
-// answers[0] = prompt("Как ваше имя?", "");
-// answers[1] = prompt("Какая ваша фамилия?", "");
-// answers[2] = prompt("Сколько вам лет?", "");
-
-console.log(typeof(answers));
-console.log(typeof(null));
