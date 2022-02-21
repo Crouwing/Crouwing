@@ -1,29 +1,18 @@
 "use strict";
 
-// let number = 4.6;
+// alert("Hellow");
 
-// console.log(4/0);
-// console.log('string' * 9);
+// let result = confirm("Are you here?");
+// console.log(result);
 
-// const persone = 'Alex';
+// const answer = +prompt("Вам есть 18?", "18+");
+// console.log(answer + 5);
 
-// const bool = true;
+const answers = [];
 
-// console.log(something);
+// answers[0] = prompt("Как ваше имя?", "");
+// answers[1] = prompt("Какая ваша фамилия?", "");
+// answers[2] = prompt("Сколько вам лет?", "");
 
-// let und;
-// console.log(und);
-
-const obj = {
-    name: "John",
-    age: 25,
-    isMarried: false
-};
-
-console.log(obj.name);
-
-let arr = [
-    'plum.png', 'orange.jpg', 6, 'apple.bmp'
-];
-
-console.log(arr[1]);
+console.log(typeof(answers));
+console.log(typeof(null));
