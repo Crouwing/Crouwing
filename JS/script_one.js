@@ -1,25 +1,38 @@
 "use strict";
 
-console.log('arr' + ' - object');
-console.log(4 + +'5');
+// if (4 == 4) {
+//     console.log("ok!");
+// } else {
+//     console.log("error!");
+// }
 
-let incr = 10,
-    decr = 10;
+// const num = 102;
 
-// ++incr;
-// --decr;
+// if (num < 49) {
+//     console.log("error!");
+// } else if (num > 100) {
+//     console.log("Много");
+// } else {
+//     console.log("Ok");
+// }
 
-console.log(++incr);
-console.log(decr--);
+// const num = 50;
 
-console.log(5%2);
+// (num === 50) ? console.log("Ok") : console.log("error!");
 
-console.log(4*2 == 8);
+const num = 110;
 
-const IsChecked = false,
-        IsClose = false; 
-        
-console.log(IsChecked || !IsClose);
-console.log(IsChecked && !IsClose);
-
-
+switch (num) {
+    case 49:
+        console.log('Неверно');
+        break;
+    case 100:
+        console.log('неа');
+        break;
+    case 50:
+        console.log('Верно');
+        break;
+    default:
+        console.log('Не в этот раз');
+        break;
+}
